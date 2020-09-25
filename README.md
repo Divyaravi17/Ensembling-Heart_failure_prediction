@@ -5,6 +5,11 @@ This is a simple Classification problem to predict whether an individual will be
 
 ## Technical Aspect
 
+## Ensembling Techniques
+Its the process of combining multiple models to predict the final outcome. There are three different techniques in Ensembling,
+
+### 1. Bagging 
+
 ### a) Input
 1. Age
 2. Sex
