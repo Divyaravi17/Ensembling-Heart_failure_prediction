@@ -28,6 +28,9 @@ Its the process of combining multiple models to predict the final outcome. There
 
 ### 2. Boosting
 
+--> Its a technique where the Base Learners are sequential. That is, the Data is fed to the first Base Learner and the outcome of which is fed to a next Base learner and continues sequentially upto a certain depth.
+
+--> When the data with High Bias and Low Variance is passed to the 
 
 ### a) Input
 1. Age
