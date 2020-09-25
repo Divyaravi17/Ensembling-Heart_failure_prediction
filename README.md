@@ -30,7 +30,29 @@ Its the process of combining multiple models to predict the final outcome. There
 
 --> Its a technique where the Base Learners are sequential. That is, the Data is fed to the first Base Learner and the outcome of which is fed to a next Base learner and continues sequentially upto a certain depth.
 
---> When the data with High Bias and Low Variance is passed to the 
+--> When the data with High Bias and Low Variance is passed to the Final Classifier, then the outcome will be of Low Bias.
+
+#### AdaBoost - its a technique where Decision Trees are the Base Learners with only 1 depth.
+
+--> Step 1: Select the field which has less entropy and update the weights of the other fields
+
+--> Step 2: Suppose if the Decision Tree classified incorrectly, then calculate the Total Error
+
+--> Step 3: Calculate the Performance of the Stomps
+
+--> Step 4: Update the weights by increasing the weights of wrong classified records and decreasing the correct classified records.
+
+--> Step 5: Create a new dataset
+
+--> Step 6: Based on the new dataset, repeat the process from step 1, until it completes all the sequential decision trees.
+
+#### Gradient Boosting - a technique of sequential Base Learners
+
+--> Present Base Learner is always more effective than previous one.
+
+--> Unlike AdaBoost, it does not update weight for incorrect prediction, instead it optimises Loss function.
+
+--> So, it requires additional model which regularises the loss function.
 
 ### a) Input
 1. Age
