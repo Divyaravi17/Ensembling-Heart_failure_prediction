@@ -26,7 +26,7 @@ Its the process of combining multiple models to predict the final outcome. There
 #### Random Forest - technique of Bagging using Row Sampling with Replacement
 #### Extra Trees Classifier - technique of Bagging but using Row Sampling without Replacement
 
-### 2. Boosting
+### 2. Boosting Technique
 
 --> Its a technique where the Base Learners are sequential. That is, the Data is fed to the first Base Learner and the outcome of which is fed to a next Base learner and continues sequentially upto a certain depth.
 
@@ -53,6 +53,14 @@ Its the process of combining multiple models to predict the final outcome. There
 --> Unlike AdaBoost, it does not update weight for incorrect prediction, instead it optimises Loss function.
 
 --> So, it requires additional model which regularises the loss function.
+
+#### Extreme Gradient Boosting - similar to AdaBoost technique, but instead of Sequential, it uses Parallel Base Learners.
+
+--> Advanced version of Gradient Boosting.
+
+--> Increases Speed and Efficiency of the model.
+
+### 3. Stacking Classifier 
 
 ### a) Input
 1. Age
