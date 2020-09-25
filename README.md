@@ -23,7 +23,10 @@ Its the process of combining multiple models to predict the final outcome. There
   
   --> Soft Voting Classifier - Instead of selecting the value, it checks for probabilities (the one with higher probablitiy is chosen).
 
+#### Random Forest - technique of Bagging using Row Sampling with Replacement
+#### Extra Trees Classifier - technique of Bagging but using Row Sampling without Replacement
 
+### 2. Boosting
 
 
 ### a) Input
