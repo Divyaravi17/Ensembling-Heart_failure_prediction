@@ -60,7 +60,11 @@ Its the process of combining multiple models to predict the final outcome. There
 
 --> Increases Speed and Efficiency of the model.
 
-### 3. Stacking Classifier 
+### 3. Stacking Classifier - technique of combining multiple classifier models via a meta classifier.
+
+--> Individual Classifiers are trained with the training data and meta classifier is fitted based on the output of classifiers.
+
+--> Meta Classifier is trained either with output of classifiers or with probabilities of output. 
 
 ### a) Input
 1. Age
