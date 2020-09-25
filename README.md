@@ -8,7 +8,15 @@ This is a simple Classification problem to predict whether an individual will be
 ## Ensembling Techniques
 Its the process of combining multiple models to predict the final outcome. There are three different techniques in Ensembling,
 
-### 1. Bagging 
+### 1. Bagging - (Boostrap Aggregation)
+--> Data is split and fed to various Base Learners for processing. This method is know as Boostrap. The splitting up of data occurs by a process called Row Sampling with Replacement.
+--> The various Base learners processes the data and predicts the outcome.
+--> The outcome of all these Base learners are then collectively used to predict the final outcome of the Ensemble model. This process is known as Aggregation.
+--> Aggregation generally happens by the method of Voting Classifier, which is a process of predicting the outcome based on the majority of the outcome of Base learners.
+--> Voting Classifier is generally of 2 types
+  --> Hard Voting Classifier - Selects the value which occurs maximum number of times
+  --> Soft Voting Classifier - Instead of selecting the value, it checks for probabilities (the one with higher probablitiy is chosen).
+
 
 
 
