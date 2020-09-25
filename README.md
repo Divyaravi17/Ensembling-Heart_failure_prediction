@@ -18,7 +18,9 @@ Its the process of combining multiple models to predict the final outcome. There
 --> Aggregation generally happens by the method of Voting Classifier, which is a process of predicting the outcome based on the majority of the outcome of Base learners.
 
 --> Voting Classifier is generally of 2 types
+
   --> Hard Voting Classifier - Selects the value which occurs maximum number of times
+  
   --> Soft Voting Classifier - Instead of selecting the value, it checks for probabilities (the one with higher probablitiy is chosen).
 
 
