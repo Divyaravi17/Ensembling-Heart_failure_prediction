@@ -10,6 +10,8 @@ Its the process of combining multiple models to predict the final outcome. There
 
 ### 1. Bagging 
 
+
+
 ### a) Input
 1. Age
 2. Sex
